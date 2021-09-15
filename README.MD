@@ -1,1 +1,1 @@
-Warm up with numpy
+Modern deep learning course. Based on dlcourse.ai and Stanford CS230n, CS231n.
