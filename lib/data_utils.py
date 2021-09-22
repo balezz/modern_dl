@@ -260,3 +260,15 @@ def load_imagenet_val(num=None):
         X = X[:num]
         y = y[:num]
     return X, y, class_names
+
+
+class Dataset:
+    """
+    Utility class to hold training and validation data
+    """
+
+    def __init__(self, train_X, train_y, val_X, val_y):
+        self.train_X = train_X
+        self.train_y = train_y
+        self.val_X = val_X
+        self.val_y = val_y
