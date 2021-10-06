@@ -27,4 +27,32 @@ Assignment results see @ RESULTS.csv
 Основной ресурс для подготовки https://keras.io/api/  
 
 - Фреймворк Keras. Назначение. Основные модули.
-- 
+- Способы создания моделей. Sequential and Model subclassing, Functional API.  
+- Model training APIs
+- Model saving & serialization APIs
+- Layer class. Activations.
+- Layer class. Weight initializers, regularizers.
+- Convolution layers. Separable, Depthwise, Transpose.
+- Pooling layers. Max, Average, Global.
+- Preprocessing layers. Text, Numerical, Categorical.
+- Normalization layers.
+- Regularization layers.
+- Callbacks API.
+- Data preprocessing. Image, Text, TimeSeries.
+- Optimizers.
+- Metrics.
+- Losses.
+- Keras Applications.
+
+Практические задания:  
+Создайте модель заданной архитектуры и обучите на встроенном датасете tf.keras.datasets.cifar10.load_data().  
+Гиперпараметры подберите самостоятельно:  
+- Dense - Dense - Dense, Model subclassing.
+- Conv - Dense - Dense, Model subclassing.
+- Conv - Conv - Dense, Model subclassing.
+- Dense - Dense - Dense, Sequential subclassing.
+- Conv - Dense - Dense, Sequential subclassing.
+- Conv - Conv - Dense, Sequential subclassing.
+- Dense - Dense - Dense, Functional API.
+- Conv - Dense - Dense, Functional API.
+- Conv - Conv - Dense, Functional API.
