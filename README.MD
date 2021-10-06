@@ -1,4 +1,5 @@
-# Modern deep learning course. Современные нейросетевые технологии.   
+# Modern deep learning course.  
+# Современные нейросетевые технологии.   
 
 Based on dlcourse.ai and Stanford CS230n, CS231n.
 
