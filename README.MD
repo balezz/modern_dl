@@ -52,9 +52,9 @@ Assignment results see @ RESULTS.csv
 - Dense - Dense - Dense, Model subclassing.
 - Conv - Dense - Dense, Model subclassing.
 - Conv - Conv - Dense, Model subclassing.
-- Dense - Dense - Dense, Sequential subclassing.
-- Conv - Dense - Dense, Sequential subclassing.
-- Conv - Conv - Dense, Sequential subclassing.
+- Dense - Dense - Dense, Sequential instance.
+- Conv - Dense - Dense, Sequential instance.
+- Conv - Conv - Dense, Sequential instance.
 - Dense - Dense - Dense, Functional API.
 - Conv - Dense - Dense, Functional API.
 - Conv - Conv - Dense, Functional API.
